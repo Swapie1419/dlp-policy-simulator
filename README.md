@@ -1,32 +1,77 @@
-DLP Policy Simulator
+🛡️ DLP Policy Simulator
 
-This project is a lightweight Data Loss Prevention (DLP) simulator designed to detect and log sensitive data in files and emails. It helps prevent data leaks by scanning for confidential information like credit card numbers, SSNs, and email addresses.
+A lightweight Data Loss Prevention (DLP) simulator for detecting sensitive data in files and emails.
 
-Features
+---
 
-✔ Scans files for sensitive information (e.g., credit card numbers, SSNs, email addresses)
-✔ Monitors directories for policy violations in real time
-✔ Performs email content scanning to detect sensitive data
-✔ Logs policy violations for later review
+📌 Overview
 
-How to Run
+The DLP Policy Simulator is a Python-based tool designed to detect and log sensitive information such as:
+✔️ Credit card numbers
+✔️ Social Security Numbers (SSNs)
+✔️ Email content scanning
+✔️ Policy violations in files and directories
 
-1. Place files inside the test_files/ directory.
-
-
-2. Run the script:
-
-python dlp_policy_simulator.py
+This tool is perfect for security professionals, data analysts, and organizations looking to monitor and prevent unauthorized data leaks.
 
 
+---
 
-Requirements
+🚀 Features
+
+🔍 Scans files for sensitive information
+🛑 Monitors directories for policy violations
+📧 Performs email content scanning
+📜 Logs violations for review
+
+
+---
+
+🛠️ Installation & Usage
+
+🔹 Prerequisites
 
 Python 3.x
 
-Required libraries (install via pip install -r requirements.txt)
+Required libraries (install with pip install -r requirements.txt)
 
 
-Author
+🔹 Running the Simulator
 
-Swapnil Gedam
+# Clone the repository
+git clone https://github.com/Swapie1419/dlp-policy-simulator.git
+
+# Navigate to the directory
+cd dlp-policy-simulator
+
+# Run the script
+python dlp_policy_simulator.py
+
+
+---
+
+📁 Project Structure
+
+dlp-policy-simulator/
+│── test_files/         # Sample test files for detection
+│── logs/               # Logs of detected violations
+│── dlp_policy_simulator.py  # Main script
+│── config.json         # Policy configuration settings
+│── README.md           # Documentation
+└── requirements.txt    # Dependencies
+
+
+---
+
+📜 License
+
+This project is licensed under the MIT License.
+
+
+---
+
+👤 Author
+
+Swapnil
+🔗 LinkedIn | 🐙 GitHub
+
