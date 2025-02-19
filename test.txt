@@ -1,0 +1,4 @@
+This is a sample document.
+My credit card number is 4111-1111-1111-1111.
+My email is user@example.com.
+My SSN is 123-45-6789.
